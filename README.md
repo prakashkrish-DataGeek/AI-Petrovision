@@ -417,6 +417,6 @@ For production use, integrate with open datasets under their respective licenses
 
 For questions, issues, or contributions:
 - Open an issue on GitHub
-- Contact: [your-email@domain.com]
+- Contact: prakash.krishnamachari@gmail.com
 
 **Built with ❤️ for the subsurface community.**
