@@ -1,4 +1,4 @@
-# 🛢️ PetroVision — Intelligent Reservoir Management
+# 🛢️ AI PetroVision — Intelligent Reservoir Management
 
 > **AI-Powered Petrophysicist Workflow Simulator**  
 > A prototype demonstrating how machine learning replicates and augments graduate-level petrophysical interpretation, with explicit uncertainty quantification and explainability.
