@@ -1,0 +1,24 @@
+PetroVision Architecture Diagram
+==================================
+
+Level 1 (Current)
+[Browser] → [Streamlit] → [scikit-learn] → [Plotly]
+     ↑              ↑            ↑            ↑
+   User          UI Layer     ML Engine    Viz Engine
+
+Level 2 (Field Scale)
+[Petrel/Eclipse] ← [FastAPI] ← [Model Registry] ← [Batch Processor]
+                         ↓
+                    [PostgreSQL + Redis]
+
+Level 3 (Enterprise)
+[LWD Real-time Feed] → [Kafka] → [Inference API] → [Alert System]
+                              ↓
+                        [Governance / Audit Trail]
+
+Level 4 (Ecosystem)
+[Operator A] ← [Federated Learning] → [Operator B]
+                    ↓
+            [Global Model Improvement]
+                    ↓
+            [NPD / SEC Reporting API]
