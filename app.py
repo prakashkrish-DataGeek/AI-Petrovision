@@ -16,7 +16,7 @@ Run: streamlit run app.py
 
 import streamlit as st
 st.set_page_config(
-    page_title="PetroVision",
+    page_title="AI PetroVision",
     page_icon="🛢️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -76,7 +76,7 @@ init_session()
 # =============================================================================
 
 with st.sidebar:
-    st.markdown("## 🛢️ PetroVision")
+    st.markdown("## 🛢️ AI PetroVision")
     st.caption("Intelligent Reservoir Management")
     st.divider()
 
